@@ -1,16 +1,15 @@
-v
+V
 opening
   allowSkipping: true
 
-n
+N
 僖公三十三年
-  background:
-    name: 'gate_1'
+  background: 'gate_1'
 九月．甲午．
 晉侯．秦伯．圍鄭．
 佚之狐言於鄭伯
   tachies: [
-    { yizhihu: 'normal' }
+    { yizhihu: 'default' }
   ]
   background:
     name: 'yard'
@@ -18,35 +17,35 @@ n
 yizhihu
 國危矣．若使燭之武見秦君．師必退．
 
-n
+N
 公從之．
   tachies: []
 
 zhuzhiwu
 辭曰．臣之壯也．猶不如人．今老矣．無能為也已．
   tachies: [
-    { zhuzhiwu: 'normal' }
+    { zhuzhiwu: 'default' }
   ]
 
 zhengbo
 公曰．吾不能早用子．今急而求子．是寡人之過也．然鄭亡．子亦有不利焉．
 
-n
+N
 許之．夜縋而出．
   background:
     name: 'sky'
 
-n
+N
 見秦伯
   tachies: [
-    { qinbo: 'normal' }
+    { qinbo: 'default' }
   ]
   bgm: 'ridingTheDragon'
 
 zhuzhiwu
 曰秦晉圍鄭．鄭既知亡矣．
   tachies: [
-    { zhuzhiwu: 'normal' }
+    { zhuzhiwu: 'default' }
   ]
 若亡鄭而有益於君．敢以煩執事．
 越國以鄙遠．君知其難也．焉用亡鄭以倍鄰？
@@ -59,12 +58,12 @@ zhuzhiwu
 qinbo
 秦伯說．與鄭人盟．
   tachies: [
-    { qinbo: 'normal' }
+    { qinbo: 'default' }
   ]
   background:
     name: 'yard'
 
-n
+N
 - Fin -
   background:
     name: 'winter'

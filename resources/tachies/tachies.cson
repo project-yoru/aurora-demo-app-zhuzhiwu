@@ -2,14 +2,14 @@
 # TODO support default fileName, default fileExt, etc..
 
 yizhihu:
-  normal:
+  default:
     type: 'static'
-    fileName: 'normal.png'
+    fileName: 'default.png'
 qinbo:
-  normal:
+  default:
     type: 'static'
-    fileName: 'normal.png'
+    fileName: 'default.png'
 zhuzhiwu:
-  normal:
+  default:
     type: 'static'
-    fileName: 'normal.png'
+    fileName: 'default.png'
