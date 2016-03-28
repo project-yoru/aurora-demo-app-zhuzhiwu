@@ -17,9 +17,24 @@ N
 yizhihu
 國危矣．若使燭之武見秦君．師必退．
 
+D
+公何爲？
+  choices:
+    [
+      {
+        text: '公從之'
+        ref: 'anchor1'
+      },
+      {
+        text: '公非之'
+        ref: 'anchor2'
+     }
+    ]
+
 N
 公從之．
   tachies: []
+  anchor: 'anchor1'
 
 zhuzhiwu
 辭曰．臣之壯也．猶不如人．今老矣．無能為也已．
@@ -64,7 +79,24 @@ qinbo
     name: 'yard'
 
 N
-- Fin -
+- GE Fin -
+  isEnding: true
+  background:
+    name: 'winter'
+  tachies: []
+
+qinbo
+秦伯怒．
+  anchor: 'anchor2'
+  tachies: [
+    { qinbo: 'default' }
+  ]
+  background:
+    name: 'yard'
+
+N
+- BE Fin -
+  isEnding: true
   background:
     name: 'winter'
   tachies: []
