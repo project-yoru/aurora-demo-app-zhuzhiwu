@@ -1,3 +1,18 @@
-title: 'Aurora Demo'
-author: 'Nano WANG'
-version: '0.0.1'
+meta:
+  id: 'com.projectyoru.aurora.demo'
+  name: 'Project Yoru Aurora Demo'
+  version: '0.0.1'
+  author:
+    name: 'Project Yoru'
+    link: 'https://github.com/project-yoru'
+  source: 'https://github.com/project-yoru/aurora-demo-app'
+  license: 'MIT'
+
+appearance:
+  orientation: 'landscape' # landscape, portrait
+  logo: 'logo.png' # base path is repo:resources/images
+  # splash_screen:
+
+custom:
+  opening:
+    bgm: 'infinite_rite'
