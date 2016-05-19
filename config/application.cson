@@ -1,15 +1,18 @@
 meta:
-  id: 'com.projectyoru.aurora.demo'
+  id: 'com.projectyoru.workshopaurora.demo'
   name: 'Project Yoru Aurora Demo'
   version: '0.0.1'
+  description: 'Demo app for workshop aurora'
   author:
     name: 'Project Yoru'
+    email: 'fake@email.address'
     link: 'https://github.com/project-yoru'
   source: 'https://github.com/project-yoru/aurora-demo-app'
   license: 'MIT'
 
 appearance:
   orientation: 'landscape' # landscape, portrait
+  # icon: 'icon.png'
   logo: 'logo.png' # base path is repo:resources/images
   # splash_screen:
 
