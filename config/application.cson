@@ -12,8 +12,8 @@ meta:
 
 appearance:
   orientation: 'landscape' # landscape, portrait
-  # icon: 'icon.png'
-  logo: 'logo.png' # base path is repo:resources/images
+  icon: 'icon.png' # base path is repo:resources/images
+  # logo: 'logo.png' # base path is repo:resources/images
   # splash_screen:
 
 custom:
